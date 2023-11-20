@@ -1,0 +1,73 @@
+:root {
+    --main-bg-color: #fff6f6;
+    --header-bg-color: #f97b7b;
+    --header-text-color: #fff;
+    --link-color: #fff;
+    --link-hover-color: #f45e5e;
+    --shadow-color: rgba(0, 0, 0, 0.2);
+    --border-radius: 5px;
+    --button-bg-color: #f97b7b;
+    --button-text-color: #fff;
+    --product-bg-color: #fff;
+    --product-text-color: #f97b7b;
+    --text-color: #333;
+}
+
+body {
+    font-family: 'Signika Negative', sans-serif !important;
+    margin: 0;
+    padding: 0;
+    background-color: var(--main-bg-color) !important;
+    color: var(--text-color);
+}
+
+.logo{
+    float: left;
+    margin-left: 50px; 
+    width: 150px;
+    height: 150px;
+}
+
+.btn {
+    border-color: #d55959 !important;
+    color: rgb(167, 34, 34) !important;
+}
+
+.btn.btn-outline-success:hover {
+    background-color: red;
+}
+
+.container {
+    color: var(--product-text-color);
+}
+
+.navbar {
+    padding-top: 0 !important;
+}
+
+.container-fluid {
+    background-color: var(--header-bg-color);
+    
+}
+
+.nav-link {
+    color: var(--link-color) !important;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.starter-template {
+    display: block;
+    align-items: center;
+    text-align: center;
+}
+
+#reviews h5,
+#reviews P {
+    color: black !important;
+}
+
+.btn-primary {
+    background-color: var(--button-bg-color) !important;
+    color: var(--product-text-color);
+}
